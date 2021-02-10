@@ -1,0 +1,923 @@
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+	.contain{
+		width: 95%;
+		height: auto;
+	}
+
+/*------index=responsive-------*/
+
+
+/*---------top-menu----------*/
+	#top_wrap .left{
+		width: 37%;
+	}
+	#top_wrap .left a h2{
+		font-size: 25px;
+	}
+	#top_wrap .left p{
+		font-size: 14px;
+	}
+	
+	#top_wrap .right{
+		width: 63%;
+	}
+	#top_wrap .right nav ul{
+		margin-left: 0px;
+		float: right;
+	}
+	#top_wrap .right nav ul li{
+		margin-left: 26px;
+	}
+/*------top-menu-finish---------*/
+	
+	
+	#nav_bottom .right {
+		width: 30%;
+		margin-right: 0px;
+		margin-top: -6px;
+	}
+	
+	#clm_example .top .site article figure{
+		width: 93%;
+	}
+	
+	#nav_bottom .right img{
+		width: 47%;
+		height: 69px;
+	}
+	
+	#nav_bottom .left {
+		width: 61%;
+	}
+	
+	#nav_bottom .left h2{
+		font-size: 30px;
+		margin-bottom: 26px;
+	}
+	
+	#nav_bottom .left p{
+		font-size: 17.5px;
+	}
+	
+	#clm_example .top .site article {
+		width: 105%;
+		margin-bottom: 50px;
+	}
+	#clm_example .top .site article:first-child{
+		margin-left: 0px;
+	}
+	#clm_example .top .site article figure img{
+		width: 60%;
+		height: 175px;
+		display: block;
+		margin: 0 auto;
+	}
+	#clm_example .top .site article figure figcaption{
+		text-align: center;
+	}
+	#clm_example .top .site article ol{
+		list-style-type: none;
+	}
+	#clm_example .top .site article ol li{
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#clm_example .top .site article p{
+		width: 93%;
+		text-align: justify;
+		margin-left: 0px;
+	}
+	#clm_example .top .site article .responsive_a_p_in_article{
+		width: 100%;
+		text-align: center;
+	}
+	#clm_example .top .site article figure .responsive_a_p10_in_article{
+		width: 100%;
+		text-align: center;
+	}
+	
+	
+	#down_site .left{
+		width: 100%;
+		margin-bottom: 45px;
+	}
+	#down_site .left h2{
+		text-align: center;
+	}
+	#down_site .left form{
+		width: 100%;
+	}
+	
+	#down_site .middle{
+		width: 100%;
+		margin-bottom: 45px;
+	}
+	#down_site .right_a{
+		width: 100%;
+		margin-bottom: 45px;
+	}	
+	#down_site .right_b{
+		width: 100%;
+		margin-bottom: 45px;
+	}
+/*------index=responsive=finish-------*/
+
+
+
+
+
+/*---------company=responsive----------*/
+
+/*---------top-menu----------*/
+
+	#top_wrap_cmpny .left_cmpny {
+		width: 37%;
+	}
+	 #top_wrap_cmpny .left_cmpny  a h2{
+		font-size: 25px;
+	}
+	 #top_wrap_cmpny .left_cmpny  p{
+		font-size: 14px;
+	}
+	
+	 #top_wrap_cmpny .right_cmpny{
+		width: 63%;
+	}
+	 #top_wrap_cmpny .right_cmpny nav ul{
+		margin-left: 0px;
+		float: right;
+	}
+	 #top_wrap_cmpny .right_cmpny nav ul li{
+		margin-left: 26px;
+	}
+/*----------top-menu-finish-------*/
+
+	#company_part .main_part{
+		width: 37.5%;
+	}
+	#company_part .part_b{
+		width: 59%;
+		margin-left: 20px;
+	}
+	#company_part .part_b h2{
+		width: 85%;
+		display: block;
+		margin: 0 auto;
+		font-size: 25px;
+	}
+	#company_part .part_b article{
+		width: 100%;
+		height: 488px;
+	}
+	#company_part .part_b article .inside{
+		width: 85%;
+		margin-left: 30px;
+	}
+	#company_part .part_b article .hr_inside{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	
+	#company_part .main_part .social_site{
+		width: 266%;
+		display: block;
+		margin-top: 100px;
+	}
+	#company_part .main_part .social_site ul li a img{
+		width: 53.5px;
+		height: 60px;
+	}
+	
+	
+	#company_part .part_c{
+		width: 100%;
+		margin-top: 58px;
+	}
+	#company_part .part_c ul{
+		width: 100%;
+		display: block;
+	}
+	#company_part .part_c ul li{
+		margin-right: 61px;
+		margin-left: -23px;
+	}
+	#company_part .part_c ul li a{
+		font-size: 17.5px;
+		text-align: center;
+	}
+	#company_part .part_c ul li a:hover{
+		border-bottom: none;
+	}
+	
+	#company_part .part_c .inside_c-part table{
+		width: 100%;
+	}
+	
+	#company_owner{
+		margin-top: 50px;
+	}
+	#company_owner .fixed_owner article figure{
+		margin-top: 5px;
+	}
+	#company_owner .fixed_owner article p{
+		width: 66%;
+		font-size: 13px;
+		margin-top: 0px;
+	}
+	#company_part .main_part .part_a ul li a img{
+		width: 115.5px;
+	}
+
+
+/*---------company=responsive=finish----------*/
+
+
+
+
+/*---------service-responsive---------*/
+
+/*---------top-menu----------*/
+
+	#top_wrap_service .left_service {
+		width: 37%;
+	}
+	 #top_wrap_service .left_service  a h2{
+		font-size: 25px;
+	}
+	 #top_wrap_service .left_service  p{
+		font-size: 14px;
+	}
+	
+	 #top_wrap_service .right_service{
+		width: 63%;
+	}
+	 #top_wrap_service .right_service nav ul{
+		margin-left: 0px;
+		float: right;
+	}
+	 #top_wrap_service .right_service nav ul li{
+		margin-left: 26px;
+	}
+/*----------top-menu-finish-------*/
+	#service_wrap .left{
+		width: 100%;
+	}
+	#service_wrap .left .agent .inside figure{
+		width: 23%; 
+	}
+	#service_wrap .left .agent .inside{
+		margin-left: 37px;
+	}
+	#service_wrap .right{
+		width: 75%;
+		margin-top: 35px; 
+		margin-bottom: 20px;
+	}
+	#service_wrap .social_site{
+		width: 10%;
+		margin-right: 22px;
+		margin-top: 75px;
+	}
+	#service_wrap .social_site ul li{
+		margin-bottom: 5px;
+	}
+	#service_wrap .social_site ul li a img{
+		width: 45px;
+		height: 43px;
+	}
+/*---------service-responsive-finish---------*/
+
+
+
+
+/*-----------product-responsive-------*/
+
+/*---------top-menu----------*/
+
+	#top_wrap_product .left_product {
+		width: 37%;
+	}
+	 #top_wrap_product .left_product  a h2{
+		font-size: 25px;
+	}
+	 #top_wrap_product .left_product  p{
+		font-size: 14px;
+	}
+	
+	 #top_wrap_product .left_product{
+		width: 63%;
+	}
+	#top_wrap_product .right_product{
+		width: 100%;
+	}
+	 #top_wrap_product .right_product nav ul{
+		margin-left: 0px;
+		margin-top: -82px;
+		float: right;
+	}
+	 #top_wrap_product .right_product nav ul li{
+		margin-left: 26px;
+	}
+
+/*----------top-menu-finish-------*/
+
+	#project h1{
+		font-size: 41px;
+		padding-bottom: 9px;
+	}
+	#project .all{
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+	#project .all article{
+		margin-left: 16px;
+	}
+	#project .all article figure img{
+		width: 90%;
+	}
+	#project .all article figure figcaption{
+		margin-top: 12px;
+		margin-left: 30px;
+	}
+	#project .all article figure time{
+		margin-right: 30px;
+		margin-top: 12px;
+	}
+	#project .all article p{
+		width: 90%;
+		padding: 10px 5px;
+	}
+	.social_site_p ul{
+		width: 77%;
+	}
+	.social_site_p ul li{
+		margin-right: 18px;
+	}
+	#product .inside p{
+		font-size: 12px;
+	}
+	#product .all_p .article_one{
+		width: 100%;
+	}
+	#product .all_p .in_p{
+		width: 100%;
+		margin-left: 0px;
+	}
+	#product .all_p .number ul{
+		width: 85%;
+	}
+	#product .all_p .number ul li{
+		margin-bottom: 5px;
+	}
+/*-----------product-responsive-finish-------*/
+
+/*----------product-item----------------*/
+	#product_md .inside{
+		width: 100%;
+	}
+	#product_md .inside h1{
+		text-align: center;
+	}
+	#product_md .inside_two{
+		width: 100%;
+		margin-top: 30px;
+	}
+	#product_md .inside_two form .form_p{
+		margin-right: 100px;
+	}
+	#product_md .inside_two form input[type="submit"]{
+		margin-bottom: 20px;
+	}
+	#have_p .one{
+		width: 100%;
+		margin: 10px;
+		margin-left: 0px;
+		margin-left: -6px;
+		padding: 0px;
+	}
+	#have_p .article_have_p button{
+		width: 24%;
+		margin-left: 10px;
+	}
+	#have_p .article_have_p time{
+		width: 24%;
+		margin-right: 10px;
+	}
+	#have_p .article_have_p h6{
+		margin-left: 130px;
+	}
+	#have_p .article_have_p p{
+		padding: 0px 17px;
+	}
+	#number ul{
+		width: 84%;
+	}
+	#footer_top .left{
+		width: 47%;
+		margin-right: 30px;
+	}
+	#footer_top .left h2{
+		font-size: 20px;
+	}	
+	#footer_top .left ol li{
+		font-size: 15px;
+		margin-left: 92px;
+	}
+	#footer_top .right{
+		width: 47%;
+	}
+	#footer_top .right h2{
+		font-size: 20px;
+	}
+	#footer_top .right ul li label{
+		margin-left: -50px;
+	}
+/*----------product-item-finish---------------*/
+
+
+
+/*---------visit---------*/
+	#visit_body #nav ul{
+		width: 95%;
+		padding: 10px;
+	}
+	#visit_body #nav ul li{
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+	#visit_body #nav ul .a{
+		width: 150px;
+		margin-right: 25px;
+		margin-top: 20px;
+	}
+	#visit_body #nav ul .a:last-child{
+		margin-right: 0px;
+	}
+	#project_one img{
+		width: 90%;
+		height: 149px;
+	}
+	#project_one .h2_p h2{
+		width: 55%;
+	}
+/*---------visit-finish---------*/
+
+
+
+/*-----------product-order----------*/
+	#order .inside{
+		width: 100%;
+	}
+	#order .inside h1{
+		width: 40%;
+		font-size: 23px;
+	}
+	#order .inside blockquote{
+		width: 95%;
+	}
+	#order .inside p{
+		font-size: 12.5px;
+	}
+	#order .form_one{
+		width: 100%;
+	}
+
+
+/*-----------product-order-finish---------*/
+
+
+/*---------desktop-responsive-----------*/
+	#desktop_body #dsktp_nav{
+		width: 97%;
+	}
+	#desktop_body #dsktp_nav button{
+		width: 97.5%;
+	}
+	#desktop_body #dsktp_nav ul{
+		width: 97%;
+		margin-top: 10px;
+		margin-left: 7px;
+	}
+	#desktop_body #dsktp_nav ul li{
+		margin: 5px; 
+	}
+	#desktop_body #main_all_item .left{
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+		margin-right: 0px;
+		display: block;
+	}
+	#desktop_body #main_all_item .left form{
+		width: 100%;
+		margin-left: 27px;
+		margin-bottom: 40px;
+	}
+	#desktop_body #main_all_item .middle{
+		width: 100%;
+		margin-right: 0px;
+		float: none;
+		display: block;
+		margin-bottom: 40px;
+	}
+	#desktop_body #main_all_item .right{
+		width: 100%;
+		float: none;
+	}
+	#desktop_body #video{
+		width: 100%;
+		padding: 0px;
+	}
+	#desktop_body #video ul .search-point input[type="search"]{
+		width: 70%;
+	}
+	#desktop_body #video ul li{
+		width: 43.1%;
+		margin-left: 32px;
+	}
+	#desktop_body #footer_top .left{
+		margin-right: 20px;
+	}
+	#desktop_body #footer_top .left h2{
+		font-size: 17px;
+	} 
+	#desktop_body #footer_top .right h2{
+		font-size: 17px;
+	}
+	#desktop_body #footer_top .right ul li label{
+		font-size: 16px;
+	}
+	#desktop_body #footer-dsk h4{
+		font-size: 11px;
+	}
+	#desktop_body #footer-dsk p{
+		font-size: 11px;
+	}
+
+/*---------desktop-responsive-finish-----------*/
+
+
+
+
+/*---------brance---------*/
+	#about_all #top-site{
+		width: 100%;
+	}
+	#about_all #top-site .left{
+		width: 100%;
+	}
+	#about_all #top-site .left .inside-one{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	#about_all #top-site .middle{
+		width: 100%;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	#about_all #top-site .right{
+		width: 100%;
+		margin-left: 0px;
+	}
+	#about_all #top-site .right_two{
+		width: 100%;
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
+	#footer_mgmgmg{
+		width: 92%;
+		height: auto;
+		margin-left: 5px;
+		margin-bottom: 5px;
+	}
+	#footer_mgmgmg h4{
+		font-size: 12px;
+		float: left;
+	}
+	#footer_mgmgmg p{
+		font-size: 12px;
+		float: right; 
+	}
+
+/*---------brance-finish--------*/
+	.fix .going-to-main-page{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.fix .going-to-main-page button{
+		width: 50%;
+		display: block;
+		margin: 0 auto;
+	}
+	.r_h{
+		width: 100%;
+		height: 40px;
+		box-shadow: none;
+		font-size: 46px;
+	}
+	.r{
+		width: 100%;
+		
+		display: block;
+	}
+	.r img{
+		width: 95%;
+		height: 166px;
+		border-radius: 0px;
+	}
+	.r h2{
+		font-size: 46px;
+		padding-top: 20px;
+		margin-bottom: 20px;
+	}
+	.r p{
+		font-size: 15px;
+	}
+
+	
+/*----------list-------------*/
+	#cmpny_section .section_one h1{
+		font-size: 20px;
+	}
+	#cmpny_section .section_one img{
+		width: 84.2%;
+		height: 271px;
+	}
+	#cmpny_section .section_one time{
+		width: 84.2%;
+		margin-left: 1.5px;
+	}
+	#cmpny_section .section_one .left{
+		width: 70%;
+		margin-right: 20px;
+	}
+	#cmpny_section .section_one .middle ul{
+		height: 269px;
+	}
+	#cmpny_section .section_one .middle p{
+		display: none;
+	}
+	#cmpny_section .section_one .right{
+		width: 100%;
+		margin-top: 40px;
+	}
+	#cmpny_section .section_one .right h2{
+		text-align: center;
+		margin-bottom: 27px;
+	}
+	#cmpny_section .section_one .right form{
+		margin-bottom: 55px;
+	}
+	#cmpny_section .section_one .right form label{
+		margin-left: 20px;
+	}
+	#cmpny_section .section_one .right form input[type="text"]{
+		margin-left: 20px;
+	}	
+	#cmpny_section .section_one .right form input[type="email"]{
+		margin-left: 20px;
+	}	
+	#cmpny_section .section_one .right form input[type="file"]{
+		margin-left: 20px;
+	}	
+	#cmpny_section .section_one .right form input[type="radio"]{
+		margin-left: 20px;
+	}
+	#cmpny_section .section_one .right form input[type="date"]{
+		margin-left: 20px;
+	}	
+	#cmpny_section .section_one .right form #country{
+		margin-left: 20px;
+	}
+	#cmpny_section .section_one .right form textarea{
+		margin-left: 20px;
+	}
+	#cmpny_section .section_one .right form input[type="submit"]{
+		margin-left: 20px;
+	}
+	#cmpny_section .section_one .inside{
+		width: 100%;
+	}
+	#footer_mmm{
+		width: 98%;
+	}
+
+/*----------list-finish-------------*/
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen (min-width: 320px) and (max-width: 767px) {
+	..contain{
+		width: 98.80%;
+	}
+		
+}
+	
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.contain{
+		width: 98.80%;
+	}
+	
+	
+/*------------top-bar------------*/
+	#top_wrap .left{
+		width: 100%;
+		height: auto;
+		margin-bottom: 30px;
+	}
+	#top_wrap .left a h2{
+		font-size: 20px;
+		text-align: center;
+	}
+	#top_wrap .left p{
+		text-align: center;
+		font-size: 13px;
+	}
+	#top_wrap .right{
+		width: 100%;
+	}
+	#top_wrap .right nav ul{
+		width: 78%;
+		display: block;
+	}
+	#top_wrap .right nav ul li{
+		margin-left: 10px;
+		margin-left: -10px;
+		margin: 0 auto;
+	
+	}
+/*---------top-bar-finish-------*/
+	#nav_bottom .left{
+		width: 100%;
+	}
+	#nav_bottom .left h2{
+		font-size: 20px;
+		text-align: center;
+	}
+	#nav_bottom .left p{
+		text-align: justify;
+		padding: 5px 10px;
+	}
+	#nav_bottom .right{
+		display: none;
+	}
+	#clm_example .top .site article{
+		width: 100%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 0px;
+	}
+	#clm_example .top .site article figure img{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+		margin-left: 62px;
+		margin-right: 0px;
+	}
+	#clm_example .top .site article figure figcaption{
+		width: 100%;
+		text-align: center;
+		border-bottom: none;
+	}
+	#clm_example .top .site article ol{
+		list-style-type: none;
+	}
+	#clm_example .top .site article ol li{
+		font-size: 15px;
+		text-align: center;
+	}
+	#clm_example .top .site article p{
+		width: 93%;
+		padding: 5px 10px;
+		text-align: justify;
+		font-size: 13px;
+	}
+	#clm_example .top .site article .responsive_a_p_in_article{
+		text-align: center;
+	}
+	#down_site .left{
+		width: 100%;
+	}
+	#down_site .left h2{
+		text-align: center;
+		font-size: 20px;
+		border-bottom: 1px solid #7F7C69;
+		padding-bottom: 5px;
+	}
+	#down_site .left form{
+		border-top: none;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	#down_site .left form .floatleft input{
+		float: right;
+		width: 215px;
+	}
+	#down_site .middle{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#down_site .right_a{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#down_site .right_b{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#down_site .right_b p{
+		width: 95%;
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+	#down_site .right_a p{
+		width: 95%;
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+	#down_site .middle p{
+		width: 95%;
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+	#down_site .search_bttn{
+		width: 87%;
+	}
+	#footer{
+		width: 100%;
+		height: auto;
+	}
+	#footer h4{
+		font-size: 11px;
+	}
+	#footer p{
+		font-size: 10px;
+	}
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+}

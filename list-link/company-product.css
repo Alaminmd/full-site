@@ -1,0 +1,300 @@
+/*--------Typography---------*/
+
+*{
+	margin:0; padding:0;
+}
+body{
+	font-family:sans-serif, arial !important;
+	padding-top: 5px;
+	background: #046084;
+}
+ul{
+	list-style-type:none;
+}
+li{
+	float:left;
+}
+a{
+	display:block; text-decoration:none;
+}
+p{
+	line-height:1.5; display:block;
+}
+img{
+	width:100%; height:auto; display:block;
+}
+.full_container{
+	width:100%;
+}
+.fix{
+	overflow: hidden;
+}
+.contain{
+	width: 1100px;
+	display: block;
+	margin: 0 auto;
+}
+.container{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.floatleft{
+	float:left;
+}
+.floatright{
+	float:right;
+}
+
+/*--------Typography---------*/
+
+
+
+/*-----------all-company-details------------*/
+
+#top-site{
+	width: 100%;
+	height: auto;
+}
+#top-site h1{
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 185%;
+	font-family: bokr76w;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #dddddd;
+}
+#top-site .img{
+	width: 80%;
+	height: 200px;
+	display: block;
+	padding: 15px 0px;
+	margin: 0 auto;
+	border-radius: 20px;
+	background: #cccccc;
+	box-shadow: 0px 0px 6px 1px #000;
+}
+#top-site .apple{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #dddddd;
+	box-shadow: 0px 0px 5px 1px #000;
+}
+/*=======left===============*/
+#top-site .left{
+	width: 25%;
+	height: auot;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+#top-site .left .inside-one {
+
+}
+#top-site .left .inside-one h2{
+	color: #ddd;
+	font-size: 20px;
+	font-family: ChaparralPro-Regular;
+	text-shadow: -2px -2px 2px #000;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #888888;
+}
+#top-site .left .inside-one p{
+	color: #000;
+	font-size: 15px;
+	font-family: bokr76w;
+	text-align: justify;
+	text-shadow: 0px 0px 15px #fff;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #777;
+}
+#top-site .left ul{
+	
+}
+#top-site .left ul h4{
+	color: #e4b91c;
+	font-size: 15px;
+	font-family: bokr76w;
+	text-align: center;
+	text-shadow: 0px 0px 5px #000000;
+	margin-bottom: 5px;
+}
+#top-site .left ul li{
+	width: 99%;
+	height: auto;
+	float: none;
+	text-align: center;
+	background: #d4d4d4;
+	border: 0.5px dashed #8c8c8c;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #7d000c;
+	text-shadow: 0px 0px 2px #ffffff;
+	padding: 2px 2px;
+}
+
+/*=======finish====left==========*/
+
+
+
+
+/*=========middle===========*/
+#top-site .middle{
+	width: 25%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+#top-site .middle h2{
+	color: #ddd;
+	font-size: 20px;
+	font-family: ChaparralPro-Regular;
+	text-shadow: -2px -2px 2px #000;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #888888;
+}
+#top-site .middle p{
+	color: #000;
+	font-size: 15px;
+	font-family: bokr76w;
+	text-align: justify;
+	text-shadow: 0px 0px 15px #fff;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+	padding: 5px 10px;
+}
+
+/*===========middle=finish=========*/
+
+
+
+/*==========right-==========*/
+#top-site .right{
+	width: 25%;
+	height: auto;
+	display: inlien-block;
+	float: left;
+	margin-left: 10px;
+}
+#top-site .right h2{
+	color: #ddd;
+	font-size: 20px;
+	font-family: ChaparralPro-Regular;
+	text-shadow: -2px -2px 2px #000;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #888888;	
+}
+#top-site .right ul{
+	
+}
+#top-site .right ul li{
+	text-align: center;
+	float: none;
+	background: #004a56;
+	color: #d8c85a;
+	margin-bottom: 10px;
+	padding: 2px 2px;
+	font-size: 14px;
+	text-shadow: 0px 0px 2px #000;
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px 1px #dddddd;
+}
+
+/*==========right-finish-==========*/
+
+
+/*========right-two==========*/
+#top-site .right_two{
+	width: 20%;
+	height: auto;
+	display: inline-block;
+	float: right;
+}
+#top-site .right_two h2{
+	color: #ddd;
+	font-size: 20px;
+	font-family: ChaparralPro-Regular;
+	text-shadow: -2px -2px 2px #000;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #888888;		
+}
+#top-site .right_two ul{
+	
+}
+#top-site .right_two ul li{
+	text-align: center;
+	float: none;
+	background: #004a56;
+	color: #d8c85a;
+	margin-bottom: 10px;
+	padding: 2px 2px;
+	font-size: 14px;
+	text-shadow: 0px 0px 2px #000;
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px 1px #dddddd;
+}
+/*========right-two-finish==========*/
+
+
+/*-----------all-company-details-finish------------*/
+
+
+
+
+/*=========footer==========*/
+#footer_mgmgmg{
+	width: 1250px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background: #004a67;
+	color: #eae5e5;
+	margin-left: 26px;
+	padding: 10px 24px;
+	border-radius: 10px;
+}
+
+#footer h4{
+	float: left;
+}
+#footer p{
+	float: right;
+}
+/*=========footer-finish==========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
